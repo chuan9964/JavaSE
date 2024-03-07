@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- xsd约束的根标签为<schema> xmlns="http://www.w3.org/2001/XMLSchema"(该文件被W3C的提供的内容约束)-->
+<!-- targetNamespace="http://www.itcast.cn"(指定当前约束的URL) 网址不需要存在(和其他的XSD约束不重复)-->
+<!-- elementFormDefault="qualified" (质量良好的约束文件)-->
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.itcast.cn"
+        elementFormDefault="qualified">
+    <!-- 通过标签的方式来进行约束的声明 <element name='标签名'> -->
+    <element name="students">
+        <complexType>
+            <sequence>
+                <element name="student" minOccurs="1" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="id" type="string"/> <!-- 简单元素的声明 -->
+                            <element name="name" type="string"/> <!-- 简单元素的声明 -->
+                            <element name="age" type="int"/> <!-- 简单元素的声明 -->
+                        </sequence>
+                        <attribute name="name" type="string" use="required"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  1：怎么创建xml  src点右键  new file  后缀名带.xml
+  2: 书写一个文档声明  <?  根据提示出来
+  3: 首先要写一个 根标签  根标签只能有一个
+     <user>自动出来结束标签
+  4: 写子标签
+      俩子标签  <user>
+      <user>里面
+          属性   <user id="1" decs="这是第一个用户">
+          子标签
+              <name></name>
+   5: 特殊符号 先使用 转义字符
+        也可以使用 CDATA区域 原样输出  CD 快捷键
+         <!CDATA[[内容]]>
+  -->
+<users>
+    <user id="1" desc="第一个用户">
+        <name>刘伟传</name>
+        <age>23</age>
+        <address>沧州</address>
+    </user>
+    <user id="2" desc="第二个用户">
+        <name>刘伟</name>
+        <age>23</age>
+        <address>衡水</address>
+    </user>
+    <user id="3" desc="第三个用户">
+        <name>大王的</name>
+        <age>23</age>
+        <address><![CDATA[
+hdiquefwiehfiwuh~1!,.<><<><><><><>''';"""<>
+        ]]></address>
+    </user>
+</users>

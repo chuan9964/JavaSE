@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="依赖jar包">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/day_11/src/课上练习需要的资料/依赖jar包/dom4j-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day_11/src/课上练习需要的资料/依赖jar包/dom4j-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day_11/src/课上练习需要的资料/依赖jar包/logback-core-1.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day_11/src/课上练习需要的资料/依赖jar包/logback-classic-1.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day_11/src/课上练习需要的资料/依赖jar包/slf4j-api-2.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

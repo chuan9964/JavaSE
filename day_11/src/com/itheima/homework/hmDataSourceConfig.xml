@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 根据图形中描述的标签属性及文本，写出对应xml文件来，文件名称hmDataSourceConfig.xml
+-->
+
+<hmdatabase-config datasourcename="domain.HMDataBaseConfig">
+    <property name="driveClass">
+        com.mysql.jdbc.Drive
+    </property>
+
+    <property name="url">
+        jdbc:mysql://localhost:3306/day16
+    </property>
+
+    <property name="user">
+        root
+    </property>
+
+    <property name="password">
+        root
+    </property>
+
+</hmdatabase-config>
